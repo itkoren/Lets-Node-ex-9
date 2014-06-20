@@ -13,6 +13,6 @@ Please complete the following steps:
 
 3. Create a polling mechanism, which after returning the first result set, will continue polling only the **"[twitxy](https://github.com/itkoren/twitxy)"** & the **"utube"** API's, each 5 seconds, and return the results to the client (**NOTE: Do not bother filtering the already returned results for now**)
 
-4. Update the **"aggregator.js"** to support **"asfrom"** date, for filtering previous returned results. Use this date to only return the new results to the client
+4. Update the **"aggregator.js"** to support **"asfrom"** date, for filtering previous returned results. Use this date to only return the new results to the client (**HINT: for [twitxy](https://github.com/itkoren/twitxy), check "created_at" and for utube, check "updated.$t" attributes**)
 
 #####Use the **"sentiment"** and the **"sentigator"** modules in this repository as a starting point for the exercise
